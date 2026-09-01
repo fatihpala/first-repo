@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - Meine Webseite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Meine Webseite</div>
+    <nav>
+      <a href="index.html">Startseite</a>
+      <a href="about.html">Über mich</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Kontakt</h1>
+    <p>
+      Schreib mir eine Nachricht über das folgende Formular.
+      Hinweis: Damit das Formular tatsächlich E-Mails verschickt, brauchst
+      du noch einen Dienst wie Formspree oder Netlify Forms, da eine
+      reine GitHub-Pages-Seite keine Server-Logik ausführen kann.
+    </p>
+
+    <form action="https://formspree.io/f/DEINE-FORMULAR-ID" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Nachricht</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2026 Meine Webseite. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
