@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a24b"/>
+      <stop offset="100%" stop-color="#7a5c1e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="132" height="132" rx="10" fill="#12121a"/>
+  <rect x="10" y="10" width="120" height="120" rx="6" fill="none" stroke="url(#grad2)" stroke-width="1.5"/>
+
+  <!-- Zweizeiliger Text, feldfüllend -->
+  <text x="70" y="66" font-family="Georgia, serif" font-size="52" font-weight="bold"
+        fill="url(#grad2)" text-anchor="middle" letter-spacing="1">PA</text>
+  <text x="70" y="118" font-family="Georgia, serif" font-size="52" font-weight="bold"
+        fill="#ffffff" text-anchor="middle" letter-spacing="1">LA</text>
+
+  <!-- Trennlinie zwischen den Zeilen -->
+  <line x1="24" y1="76" x2="116" y2="76" stroke="url(#grad2)" stroke-width="1.5" opacity="0.8"/>
+</svg>
